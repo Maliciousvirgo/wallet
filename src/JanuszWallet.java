@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
 public class JanuszWallet extends Wallet{
-    
+
     private double money;
     public JanuszWallet() {
         moneyType = MoneyType.PLN;
         money = 200.0;
+        //Asia master
     }
     @Override
     public double addMoney(double money) {
