@@ -6,7 +6,7 @@ public class JanuszWallet extends Wallet{
     public JanuszWallet() {
         moneyType = MoneyType.PLN;
         money = 200.0;
-        //Asia master
+        //Asia master test 2
     }
     @Override
     public double addMoney(double money) {
